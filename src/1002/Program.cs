@@ -1,14 +1,15 @@
 ﻿using System;
 
+
 class URI {
    
    public static void Main(string[] args)
    {
     
     double n = 3.14159;
-    float raio = float.Parse(Console.ReadLine());
-    float area = float.Parse((n * raio) * 2.2f);
+    double raio = double.Parse(Console.ReadLine());
+    double area = (raio * raio) * n;
 
-    Console.WriteLine($"A={area}");
+    Console.WriteLine($"A={area:F4}");
    }
 }
