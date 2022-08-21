@@ -8,6 +8,8 @@ class URI {
         int valorB = int.Parse(Console.ReadLine());
         int valorC = int.Parse(Console.ReadLine());
         int valorD = int.Parse(Console.ReadLine());
+
+        int valorDaDiferenca = ((valorA * valorB) - (valorC * valorD));
         #endregion
     }
 }
