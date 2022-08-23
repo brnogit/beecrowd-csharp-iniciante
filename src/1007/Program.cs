@@ -1,5 +1,5 @@
 ﻿using System;
-using System.Globalization;
+
 
 class URI {
     public static void Main(string[] args)
