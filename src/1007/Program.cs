@@ -3,7 +3,7 @@
 
 class URI {
     public static void Main(string[] args)
-    {
+    {//1007
         #region Diferença
         int valorA = int.Parse(Console.ReadLine());
         int valorB = int.Parse(Console.ReadLine());
