@@ -5,7 +5,7 @@ class URI {
     static void Main(string[] args) {
         //1006
         #region Média 2 em C#
-        CultureInfo culture = CultureInfo.InvariantCulture;
+        
 
         double valorA = double.Parse(Console.ReadLine(), culture);
         double valorB = double.Parse(Console.ReadLine(), culture);
